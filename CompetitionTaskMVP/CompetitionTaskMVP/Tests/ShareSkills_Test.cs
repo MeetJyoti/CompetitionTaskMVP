@@ -6,6 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using AutoItX3Lib;
+using AutoIt;
 using System.Threading.Tasks;
 
 namespace CompetitionTaskMVP.Tests
@@ -14,6 +16,24 @@ namespace CompetitionTaskMVP.Tests
 
     public class ShareSkills : CommonDriver
     {
+
+        ShareSkillPage shareskillobj = new ShareSkillPage();
+
+
+
+        [Test, Order(1)]
+        public void CreateShareskills()
+        {
+
+            shareskillobj.ShareSkillActions(driver);
+
+
+
+
+
+
+        }
+
 
     }
 }

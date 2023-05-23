@@ -22,7 +22,7 @@ namespace CompetitionTaskMVP.Utilities
             driver = new ChromeDriver();
             // Login Page
             LoginPage LoginPageObj = new LoginPage();
-            LoginPageObj.LoginActions(driver);
+            LoginPageObj.Login("shahmeetnz@gmail.com", "123456");
 
         }
 
